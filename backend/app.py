@@ -1,6 +1,10 @@
 import firebase_admin
-from firebase_admin import credentials, auth
+from firebase_admin import credentials, auth, initialize_app
 from flask import Flask, request, jsonify
+
+# Initialize Flask app
+app = Flask(__name__)
+
 
 cred = credentials.Certificate("secure/hack-violet-firebase-adminsdk.json")
 firebase_admin.initialize_app(cred)
