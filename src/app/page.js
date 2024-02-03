@@ -14,8 +14,8 @@ export default function Home() {
           className={styles.logo}
           src="/OIG4.svg"
           alt="HerHack Logo"
-          width={180}
-          height={37}
+          width={200}
+          height={300}
           priority
         />
       </div>
