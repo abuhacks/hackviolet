@@ -10,9 +10,6 @@ export default function Home() {
        
       </div>
 
-      
-   
-
     <div className={styles.hh} >
       <div className={styles.center}>
         <Image
@@ -28,10 +25,21 @@ export default function Home() {
       </div>
 
       <div className={styles.title}> <h1>HerHacks</h1> </div>
+
+     
           
       </div>
 
-      <button type="button">Click Me!</button>
+       <div> 
+
+       <div className={styles.signup}><button><h2>Sign in!</h2></button>  </div>
+
+      </div>
+      
+       
+      
+      
+      
 
 
 
