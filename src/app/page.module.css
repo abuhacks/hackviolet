@@ -19,6 +19,20 @@
   font-family: var(--font-mono);
 }
 
+.hh
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.title {
+  margin: auto;
+  padding-left: 4em;
+  font-size: xx-large;
+  
+}
+
 .description a {
   display: flex;
   justify-content: center;
@@ -33,6 +47,11 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+}
+
+.code-container {
+  justify-content:center;
+  margin: auto;
 }
 
 .code {

@@ -1,14 +1,19 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+
+
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
        
-        
       </div>
 
+      
+   
+
+    <div className={styles.hh} >
       <div className={styles.center}>
         <Image
           className={styles.logo}
@@ -17,8 +22,16 @@ export default function Home() {
           width={200}
           height={300}
           priority
+          
         />
+        
       </div>
+
+      <div className={styles.title}> <h1>HerHacks</h1> </div>
+          
+      </div>
+
+
 
       <div className={styles.grid}>
         <a
