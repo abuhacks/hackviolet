@@ -12,8 +12,8 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/OIG4.svg"
+          alt="HerHack Logo"
           width={180}
           height={37}
           priority
