@@ -67,9 +67,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Create <span>-&gt;</span>
+            Events <span>-&gt;</span>
           </h2>
-          <p>Create a new event!</p>
+          <p>See upcoming events!</p>
         </a>
 
         <a
