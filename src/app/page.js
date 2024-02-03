@@ -10,9 +10,6 @@ export default function Home() {
        
       </div>
 
-      
-   
-
     <div className={styles.hh} >
       <div className={styles.center}>
         <Image

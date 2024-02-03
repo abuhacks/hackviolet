@@ -1,4 +1,18 @@
-.page2-container {
-    background-color: black; /* Change this to your desired color */
-    padding: 20px; /* Add any additional styling as needed */
-  }
+
+.body{
+  background-color: rgb(230, 173, 225);
+  margin: 0; /* Reset default body margin */
+  padding: 0; /* Reset default body padding */
+}
+
+.page2Container {
+  background-color: rgb(230, 173, 225);
+  text-align: center;
+  padding: 500px;
+}
+
+.page2Heading {
+  color: navy;
+  font-size: 24px;
+  /* Add any additional styles as needed */
+}
