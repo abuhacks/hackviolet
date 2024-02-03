@@ -31,6 +31,8 @@ export default function Home() {
           
       </div>
 
+      <button type="button">Click Me!</button>
+
 
 
       <div className={styles.grid}>
