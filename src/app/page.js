@@ -30,7 +30,7 @@ export default function Home() {
           <h2>
             About <span>-&gt;</span>
           </h2>
-          <p>Learn more about.</p>
+          <p>Learn more about the creators!</p>
         </a>
 
         <a
@@ -42,7 +42,7 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn how to code in Python with our comprehensive tutorials and interactive exercises!</p>
         </a>
 
         <a
@@ -52,9 +52,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Create <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Create a new event!</p>
         </a>
 
         <a
