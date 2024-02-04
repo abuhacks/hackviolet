@@ -1,2 +1,0 @@
-Flask==x.x.x
-firebase-admin==x.x.x
