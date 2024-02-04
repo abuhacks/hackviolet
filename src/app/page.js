@@ -30,9 +30,20 @@ export default function Home() {
      
           
       </div>
-
+      <div className={styles.signup}>
+        <a
+          href= "api/auth/signin"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Sign In
+          </h2>
+        </a>
+        </div>
        <div> 
-
+      
 
       </div>
       

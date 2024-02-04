@@ -38,7 +38,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  padding-right: 0.5em;
+  padding-right: 2em;
   padding-top: 0.5em;
   background-color: transparent; /* Set the background color to transparent */
   border: none; /* Remove border */
@@ -46,7 +46,7 @@
   cursor:pointer;
   overflow: hidden;
   align-items: center; /* If you have a flex container */
-  font-size: x-small;
+  font-size: small;
   font-family: system-ui;
   /* You may want to add more styling based on your design */
 }
