@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import React from 'react';
+import { signInWithGoogle } from './components/SignInWithGoogle';
 
 
 
@@ -32,7 +34,6 @@ export default function Home() {
 
        <div> 
 
-       <div className={styles.signup}><button><h2>Sign in!</h2></button>  </div>
 
       </div>
       
@@ -94,6 +95,14 @@ export default function Home() {
           </p>
         </a>
       </div>
+      {/* Google Sign-In Button */}
+      <div className={styles.googleSignIn}>
+        <button onClick={signInWithGoogle} className={styles.googleSignInButton}>
+          <h2>Sign in with Google</h2>
+        </button>
+      </div>
+      
     </main>
+    
   );
 }
